@@ -1,0 +1,1 @@
+import{u as a,a as t}from"./index-CGLPKtmZ.js";function u(){return t.get("/imageGallery.json")}const s=(e,r)=>a({queryKey:["ImageGallery"],queryFn:()=>u(),onError:e,onSuccess:r,refetchOnMount:!0,refetchOnWindowFocus:!0});export{s as u};

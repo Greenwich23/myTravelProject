@@ -1,0 +1,1 @@
+import{u as n,a as s}from"./index-CGLPKtmZ.js";function o(){return s.get("/destinations.json")}const u=(t,e)=>n({queryKey:["destinations"],queryFn:()=>o(),onError:t,onSuccess:e,refetchOnMount:!0,refetchOnWindowFocus:!0});export{u};
